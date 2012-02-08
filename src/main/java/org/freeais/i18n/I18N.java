@@ -1,17 +1,17 @@
 /******************************************************************************
  * 	Freeais.org
  * 	http://www.freeais.org		info@freeais.org
- * 	
- *  Copyright (c) 2007 
- *  
+ *
+ *  Copyright (c) 2007
+ *
  * 		ynnor systems GmbH
  * 		Mundsburger Damm 45
  * 		22087 Hamburg
  * 		Germany
- * 
+ *
  * 		Alexander Lotter	lotter@ynnor.de
  * 		David Schmitz		schmitz@ynnor.de
- * 
+ *
  *	This file is part of Freeais.org.
  *
  *  Freeais.org is free software; you can redistribute it and/or modify
@@ -26,7 +26,7 @@
  *
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *  
+ *
  ******************************************************************************/
 
 package org.freeais.i18n;
@@ -42,13 +42,12 @@ public class I18N {
 
 	private static final String BUNDLE_NAME = "org.freeais.i18n.messages"; //$NON-NLS-1$
 
-	private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle
-			.getBundle(BUNDLE_NAME);
-	
-	private I18N(){
-	}
-	
-	
+	private static final ResourceBundle RESOURCE_BUNDLE =
+			ResourceBundle.getBundle(BUNDLE_NAME);
+
+	private I18N(){}
+
+
 	public static String getString(String key) {
 		logger.info("getString(key) - Entry");
 
